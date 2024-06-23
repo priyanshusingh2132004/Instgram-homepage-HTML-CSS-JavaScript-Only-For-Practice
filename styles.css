@@ -1,0 +1,193 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo {
+    font-family: 'Billabong', cursive;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.search-box input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+}
+
+.header-icons i, .header-icons img {
+    margin-left: 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.profile-pic {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+main {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-container {
+    display: flex;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.left-column {
+    width: 65%;
+    padding: 20px;
+}
+
+.right-column {
+    width: 35%;
+    padding: 20px;
+}
+
+.stories-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.story {
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.story img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #dbdbdb;
+    padding: 2px;
+}
+
+.story span {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.post {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.post-header img {
+    margin-right: 10px;
+}
+
+.post-image {
+    width: 100%;
+}
+
+.post-actions {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.post-actions i {
+    margin-right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.post-caption {
+    padding: 10px;
+}
+
+.comments {
+    padding: 10px;
+    border-top: 1px solid #dbdbdb;
+}
+
+.comment {
+    margin-bottom: 5px;
+}
+
+.add-comment {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #dbdbdb;
+}
+
+.add-comment input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.add-comment button {
+    border: none;
+    background-color: #0095f6;
+    color: white;
+    cursor: pointer;
+}
+
+.suggestions {
+    margin-top: 20px;
+}
+
+.suggestion {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.suggestion img {
+    margin-right: 10px;
+}
+
+.suggestion button {
+    margin-left: auto;
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
